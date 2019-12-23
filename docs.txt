@@ -1,0 +1,30 @@
+Django
+
+
+1.	Check  Verison 
+      python -m django –version
+
+2.	Make project 
+
+ 	django-admin startproject website
+
+
+3.	The development server
+python manage.py runserver
+
+4. make app
+ python manage.py startapp music
+
+5. Update music/model
+6. Inform in Website/setting InstalledApps=[]
+
+6. after making changes to model 
+ upadate the data base 
+  
+python manage.py makemigrations music 
+	
+
+
+
+
+
